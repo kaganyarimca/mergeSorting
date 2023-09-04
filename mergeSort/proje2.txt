@@ -1,0 +1,19 @@
+
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Big-O gösterimini yazınız.
+
+Cavap:
+
+ iki eşit parçaya bölünür.
+[16, 21, 11] | [8, 12, 22]
+
+
+sol: [16, 11, 21]
+sağ: [8, 12, 22]
+
+ sıralanmış iki satırı birleştiririz :
+[8, 11, 12, 16, 21, 22]
+
+ zaman karmaşıklığı ise:  O(n log n) 
